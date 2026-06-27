@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=240&section=header&text=Match%20Postcard%20Generator&fontSize=52&fontColor=d4af37&animation=fadeIn&fontAlignY=35&desc=AI-Powered%20Sports%20Postcards%2C%20Generated%20%26%20Reviewed%20Locally%20via%20Ollama&descAlignY=58&descSize=16&descColor=ffffff)
+![Header]([https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=240&section=header&text=Match%20Postcard%20Generator&fontSize=52&fontColor=d4af37&animation=fadeIn&fontAlignY=35&desc=AI-Powered%20Sports%20Postcards%2C%20Generated%20%26%20Reviewed%20Locally%20via%20Ollama&descAlignY=58&descSize=16&descColor=ffffff](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=240&section=header&text=Match%20Postcard%20Generator&fontSize=52&fontColor=d4af37&animation=fadeIn&fontAlignY=35&desc=AI-Powered%20Sports%20Postcards%2C%20Generated%20and%20Reviewed%20Locally%20via%20Ollama&descAlignY=58&descSize=16&descColor=ffffff))
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=D4AF37&center=true&vCenter=true&width=820&lines=Enter+a+match.+Get+a+postcard.;Headlines+%7C+Image+Generation+%7C+AI+Review+%7C+Web+Fallback;100%25+local+via+Ollama+%E2%80%94+no+external+APIs+required.;From+a+scoreline+to+a+reviewed+postcard+in+seconds.)](https://github.com)
 
