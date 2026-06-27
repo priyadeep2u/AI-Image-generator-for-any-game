@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Match Postcard Generator</title>
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; background:#f6f7f9; margin:0; padding:2rem; }
+    .card { max-width: 480px; margin: 0 auto; background:#fff; border-radius:12px; padding:2rem; box-shadow:0 1px 4px rgba(0,0,0,0.08); }
+    h1 { font-size:1.3rem; margin-top:0; }
+    p.sub { color:#666; font-size:0.85rem; margin-top:-0.5rem; }
+    label { display:block; margin-top:1rem; font-size:0.9rem; color:#333; }
+    input { width:100%; padding:0.5rem; margin-top:0.25rem; border:1px solid #ccc; border-radius:6px; box-sizing:border-box; font-size:1rem; }
+    button { margin-top:1.5rem; width:100%; padding:0.7rem; background:#222; color:#fff; border:none; border-radius:6px; font-size:1rem; cursor:pointer; }
+    button:hover { background:#000; }
+    .row { display:flex; gap:1rem; }
+    .row label { flex:1; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>⚽ Match Postcard Generator</h1>
+    <p class="sub">Generates an anime-style postcard for a match, locally via Ollama.</p>
+    <form action="/generate" method="post">
+      <label>Date
+        <input type="text" name="date" placeholder="2025-04-12" required>
+      </label>
+      <label>Team 1
+        <input type="text" name="team1" placeholder="Real Madrid" required>
+      </label>
+      <label>Team 2
+        <input type="text" name="team2" placeholder="Barcelona" required>
+      </label>
+      <label>Game type
+        <input type="text" name="game_type" placeholder="Football" required>
+      </label>
+      <div class="row">
+        <label>Image size
+          <input type="text" name="size" value="1024x1024">
+        </label>
+        <label>Count
+          <input type="number" name="count" value="1" min="1" max="5">
+        </label>
+      </div>
+      <button type="submit">Generate postcard</button>
+    </form>
+  </div>
+</body>
+</html>
